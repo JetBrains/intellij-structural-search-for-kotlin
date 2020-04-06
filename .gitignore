@@ -80,3 +80,4 @@ gradle-app.setting
 .gradletasknamecache
 
 .DS_Store
+.idea/discord.xml
