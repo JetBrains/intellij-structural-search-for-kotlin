@@ -13,6 +13,10 @@ repositories {
     mavenCentral()
 }
 
+test {
+    systemProperty "idea.home.path", "/Users/louis.vignier/Desktop/intellij/community"
+}
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compileOnly "org.jetbrains.kotlin:kotlin-compiler"
@@ -22,7 +26,7 @@ dependencies {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version '2020.1'
-    plugins 'org.jetbrains.kotlin:1.3.71-release-IJ2020.1-1'
+    plugins = ['org.jetbrains.kotlin:1.3.71-release-IJ2020.1-1', 'java']
 }
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
