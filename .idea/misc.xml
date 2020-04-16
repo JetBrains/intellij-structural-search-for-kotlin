@@ -8,13 +8,14 @@
     <option name="languageLevel" value="ES6" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/character.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/integer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/null.kt" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
