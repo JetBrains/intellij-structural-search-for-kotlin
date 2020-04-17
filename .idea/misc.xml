@@ -22,7 +22,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/return.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/returnLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/super.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/superTypeQualifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
