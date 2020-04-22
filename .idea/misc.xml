@@ -31,7 +31,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/if.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifelse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
