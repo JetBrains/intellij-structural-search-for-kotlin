@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithOpenModifier.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/call/functionCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/character.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
