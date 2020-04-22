@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithOpenModifier.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithVarIdentifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/character.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
@@ -21,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/breakLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continue.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continueLabel.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continueLabelRegex.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/return.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/returnLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/super.kt" />
