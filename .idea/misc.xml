@@ -38,8 +38,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifelse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionNamedArgumentsCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionScrambledArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionNamedValueArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionScrambledValueArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionTypeArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionVarargArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
