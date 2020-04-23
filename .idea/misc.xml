@@ -10,9 +10,6 @@
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/call/functionArgumentsCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/call/functionCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithOpenModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithVarIdentifier.kt" />
@@ -34,12 +31,14 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/if.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifelse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionNamedValueArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionNamedValueArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionScrambledValueArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionScrambledValueArgumentsCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionTypeArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionTypeArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/functionVarargArgumentsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
