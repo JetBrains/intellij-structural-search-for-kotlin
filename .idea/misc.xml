@@ -36,6 +36,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifelse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funDefaultArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funExtensionCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funLambdaArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funMixedArgsCall.kt" />
@@ -43,6 +44,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funMixedVarargCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funNamedArgsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funSpreadVarargCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funSubsetArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funTypeArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funVarargCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/ambiguousTypedVal.kt" />
