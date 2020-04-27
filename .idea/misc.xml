@@ -51,8 +51,10 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/escape.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/literal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/longTemplate.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/nested.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/simpleName.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/not.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/postDecrement.kt" />
