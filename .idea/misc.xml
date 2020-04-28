@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/fqType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/nonFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstr.kt" />
@@ -25,11 +27,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classVarIdentifier.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithoutAbstractModifier.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithoutInternalModifier.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithoutOpenModifier.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithoutPrivateModifier.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classWithoutPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/dataClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/enumClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/innerClass.kt" />
