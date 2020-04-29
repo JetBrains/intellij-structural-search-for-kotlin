@@ -16,12 +16,14 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstr.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrDefaultValue.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrDiffType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classDoubleInheritance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classInit.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classInternalModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classOpenModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classPrivateModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classPublicModifier.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classSingleInheritance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgsExtBound.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgsVariance.kt" />
