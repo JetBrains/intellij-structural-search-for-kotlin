@@ -11,8 +11,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/fqType.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/nonFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstr.kt" />
@@ -24,6 +22,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgs.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgsExtBound.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeArgsVariance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classVarIdentifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/dataClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/enumClass.kt" />
@@ -64,8 +64,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifelse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/is.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/negatedIs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/procedureCall/funDefaultArgCall.kt" />
