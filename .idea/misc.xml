@@ -20,7 +20,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrSec.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrSecModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classDelegation.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/class/classDoc.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classDoubleInheritance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classInit.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classInternalModifier.kt" />
@@ -56,6 +55,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrSubsetArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrTypeArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrVarargCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/dotQualifiedExpression/optionalReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/dotQualifiedExpression/regular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/break.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/breakLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continue.kt" />
@@ -68,7 +69,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/fun.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/function/funArg.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBody.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funLocal.kt" />
@@ -97,6 +97,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/is.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/negatedIs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/ambiguousTypedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/fqTypedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/typedVal.kt" />
