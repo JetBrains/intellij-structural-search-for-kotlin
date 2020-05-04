@@ -123,6 +123,11 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/preIncrement.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/unaryMinus.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/unaryPlus.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionEntry.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionSubject.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenIsPatternEntry.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenRangeEntry.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenVariableSubject.kt" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
