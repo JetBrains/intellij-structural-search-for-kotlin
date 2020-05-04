@@ -56,8 +56,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrSubsetArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrTypeArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrVarargCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/dotQualifiedExpression/optionalReference.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/dotQualifiedExpression/regular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/break.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/breakLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continue.kt" />
@@ -107,6 +105,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valWithInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/escape.kt" />
