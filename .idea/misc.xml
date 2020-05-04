@@ -8,6 +8,9 @@
     <option name="languageLevel" value="ES6" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotation.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotationArgs.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/funAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
@@ -95,6 +98,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/is.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/negatedIs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/doWhileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />
@@ -105,6 +110,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valWithInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/escape.kt" />
