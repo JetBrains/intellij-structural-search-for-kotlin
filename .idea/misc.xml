@@ -96,6 +96,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/ambiguousTypedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/fqTypedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/typedVal.kt" />
