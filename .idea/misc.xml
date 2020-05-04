@@ -10,6 +10,7 @@
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/elvis.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
