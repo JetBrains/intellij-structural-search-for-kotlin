@@ -100,6 +100,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/is.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/negatedIs.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/body.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/empty.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/explicitIt.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/doWhileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />

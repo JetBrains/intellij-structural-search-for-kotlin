@@ -10,3 +10,8 @@ Plugin that implements structural search support for the Kotlin language in Inte
     - In [`KotlinPredefinedConfigurations.kt`](src/main/kotlin/com/jetbrains/kotlin/structuralsearch/KotlinPredefinedConfigurations.kt).
 
 ## Design choices
+
+### Matching blocks
+
+- Block matching is strict: the pattern `{ foo = 1 }` will not match `{ foo = 2 \n foo = 1 }` in the code.
+- Loose matching can be achieved with the pattern `{ $x$ \n foo = 1 \n $y$ }` and `[0; +infinite[` count filters on `x` and `y`.
