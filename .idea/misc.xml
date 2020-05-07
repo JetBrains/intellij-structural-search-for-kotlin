@@ -49,7 +49,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrLambdaArgCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrMixedArgsCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrMixedSpreadVarargCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrMixedVarargCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constructorCall/constrNamedArgsCall.kt" />
@@ -74,6 +73,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPrivateModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/method.kt" />
@@ -106,6 +106,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/typedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/typedValWithInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valWithInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
@@ -113,14 +114,12 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/allStrings.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/escape.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/literal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/longTemplate.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/nested.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/simpleName.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/singleVariable.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringsContainingLongTemplate.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
