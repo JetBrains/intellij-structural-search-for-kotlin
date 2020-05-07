@@ -33,6 +33,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classSingleInheritance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeParamExtBound.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeParamProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classTypeParamVariance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classVarIdentifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/dataClass.kt" />
@@ -109,6 +110,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valWithInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
