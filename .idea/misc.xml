@@ -13,10 +13,12 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/funAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constantExpressionAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryExpression.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/elvis.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/as.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asNonFqType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrPrim.kt" />
@@ -129,6 +131,12 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/dynamicType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/functionType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/nullableType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/userType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionSubject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenIsPatternEntry.kt" />
