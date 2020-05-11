@@ -80,6 +80,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funSingleParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/method.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/methodProtectedModifier.kt" />
