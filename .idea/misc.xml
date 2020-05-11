@@ -85,6 +85,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/method.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/methodProtectedModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funArgCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funArgCallBoundedCountFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funArgCallCountFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funArgCallVarRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funCall.kt" />
@@ -107,13 +108,11 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/doWhileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/property/typedVal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valType.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/property/valTypeAndInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
