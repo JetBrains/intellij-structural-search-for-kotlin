@@ -109,6 +109,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/doWhileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/companionObject.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/nestedObject.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/object.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valInitializer.kt" />
