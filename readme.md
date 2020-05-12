@@ -26,3 +26,7 @@ Strings are divided into entries. For instance `"foo: $foo"` is composed of a `K
 
 - Named value arguments are matched in any order
 - Unnamed value arguments and type arguments are matched if the arguments are placed in the same order
+
+### Object declaration matching
+
+- object searchs match both companion objects and normal object declarations
