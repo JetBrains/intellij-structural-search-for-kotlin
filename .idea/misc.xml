@@ -16,8 +16,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/elvis.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/as.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asFqType.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asNonFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
@@ -84,6 +82,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSingleParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeVarRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/method.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/methodProtectedModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/functionCall/funArgCall.kt" />
@@ -120,8 +119,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/matchAny.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/referenceExpression/regexTextFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/escape.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/literal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/longTemplate.kt" />
@@ -132,11 +129,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/dynamicType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/functionType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/nullableType.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/userType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionSubject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenIsPatternEntry.kt" />
