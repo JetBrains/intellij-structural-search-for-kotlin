@@ -112,8 +112,12 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/companionObject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/nestedObject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/object.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectDeclaration/objectSuperType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectExpression/object.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectExpression/objectAnonymous.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectExpression/objectAnyReturn.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/objectExpression/objectSuperType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/property/valComplexFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
