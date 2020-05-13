@@ -1,11 +1,13 @@
 package com.jetbrains.kotlin.structuralsearch.impl.matcher
 
+import com.intellij.psi.PsiComment
 import com.intellij.psi.PsiElement
 import com.intellij.psi.impl.source.tree.LeafPsiElement
 import com.intellij.structuralsearch.impl.matcher.GlobalMatchingVisitor
 import com.intellij.structuralsearch.impl.matcher.handlers.SubstitutionHandler
 import org.jetbrains.kotlin.nj2k.postProcessing.type
 import org.jetbrains.kotlin.psi.*
+import org.jetbrains.kotlin.psi.psiUtil.getChildOfType
 import org.jetbrains.kotlin.renderer.DescriptorRenderer
 
 class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor) : KtVisitorVoid() {
@@ -357,6 +359,8 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
                 && myMatchingVisitor.matchInAnyOrder(klass.secondaryConstructors, other.secondaryConstructors)
                 && myMatchingVisitor.match(klass.getSuperTypeList(), other.getSuperTypeList())
                 && myMatchingVisitor.match(klass.body, other.body)
+                && myMatchingVisitor.match(klass.docComment, other.docComment)
+                && myMatchingVisitor.match(klass.getChildOfType<PsiComment>(), other.getChildOfType<PsiComment>())
     }
 
     override fun visitObjectLiteralExpression(expression: KtObjectLiteralExpression) {
@@ -384,9 +388,11 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
     }
 
     override fun visitElement(element: PsiElement) {
-        if (element is LeafPsiElement) {
-            val other = getTreeElement<LeafPsiElement>() ?: return
-            myMatchingVisitor.result = element.elementType.index == other.elementType.index
+        when (element) {
+            is LeafPsiElement -> {
+                val other = getTreeElement<LeafPsiElement>() ?: return
+                myMatchingVisitor.result = element.elementType.index == other.elementType.index
+            }
         }
     }
 
@@ -499,6 +505,8 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
                 && (property.delegateExpressionOrInitializer == null || myMatchingVisitor.match(
             property.delegateExpressionOrInitializer, other.delegateExpressionOrInitializer
         ))
+                && myMatchingVisitor.match(property.docComment, other.docComment)
+                && myMatchingVisitor.match(property.getChildOfType<PsiComment>(), other.getChildOfType<PsiComment>())
     }
 
     override fun visitStringTemplateExpression(expression: KtStringTemplateExpression) {
@@ -558,4 +566,10 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
                 && multiDeclarationEntry.isVar == other.isVar
                 && matchTextOrVariable(multiDeclarationEntry.nameIdentifier, other.nameIdentifier)
     }
+
+    override fun visitComment(comment: PsiComment) {
+        val other = getTreeElement<PsiComment>() ?: return
+        myMatchingVisitor.result = myMatchingVisitor.matchText(comment, other)
+    }
+
 }
