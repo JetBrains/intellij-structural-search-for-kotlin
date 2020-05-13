@@ -16,7 +16,7 @@ Plugin that implements structural search support for the Kotlin language in Inte
 - Block matching is strict: the pattern `{ foo = 1 }` will not match `{ foo = 2 \n foo = 1 }` in the code.
 - Loose matching can be achieved with the pattern `{ $x$ \n foo = 1 \n $y$ }` and `[0; ∞]` count filters on `x` and `y`.
 
-### Matching strings
+### String Matching
 
 Strings are divided into entries. For instance `"foo: $foo"` is composed of a `KtLiteralStringTemplateEntry` (`foo: `) and a `KtSimpleNameStringTemplateEntry` (`$foo`).
 - `"$$entry$"` matches strings with one entry.
@@ -24,9 +24,9 @@ Strings are divided into entries. For instance `"foo: $foo"` is composed of a `K
 
 ### Call Matching
 
-- Named value arguments are matched in any order
-- Unnamed value arguments and type arguments are matched if the arguments are placed in the same order
+- Named value arguments are matched in any order.
+- Unnamed value arguments and type arguments are matched if the arguments are placed in the same order.
 
 ### Object declaration matching
 
-- object searchs match both companion objects and normal object declarations
+- Object searches match both companion objects and normal object declarations.
