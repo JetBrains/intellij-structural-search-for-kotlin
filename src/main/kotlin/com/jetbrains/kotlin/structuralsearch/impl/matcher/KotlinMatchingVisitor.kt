@@ -5,9 +5,10 @@ import com.intellij.psi.PsiElement
 import com.intellij.psi.impl.source.tree.LeafPsiElement
 import com.intellij.structuralsearch.impl.matcher.GlobalMatchingVisitor
 import com.intellij.structuralsearch.impl.matcher.handlers.SubstitutionHandler
+import org.jetbrains.kotlin.kdoc.psi.api.KDoc
 import org.jetbrains.kotlin.nj2k.postProcessing.type
 import org.jetbrains.kotlin.psi.*
-import org.jetbrains.kotlin.psi.psiUtil.getChildOfType
+import org.jetbrains.kotlin.psi.psiUtil.getChildrenOfType
 import org.jetbrains.kotlin.renderer.DescriptorRenderer
 
 class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor) : KtVisitorVoid() {
@@ -360,7 +361,6 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
                 && myMatchingVisitor.match(klass.getSuperTypeList(), other.getSuperTypeList())
                 && myMatchingVisitor.match(klass.body, other.body)
                 && myMatchingVisitor.match(klass.docComment, other.docComment)
-                && myMatchingVisitor.match(klass.getChildOfType<PsiComment>(), other.getChildOfType<PsiComment>())
     }
 
     override fun visitObjectLiteralExpression(expression: KtObjectLiteralExpression) {
@@ -506,7 +506,6 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
             property.delegateExpressionOrInitializer, other.delegateExpressionOrInitializer
         ))
                 && myMatchingVisitor.match(property.docComment, other.docComment)
-                && myMatchingVisitor.match(property.getChildOfType<PsiComment>(), other.getChildOfType<PsiComment>())
     }
 
     override fun visitStringTemplateExpression(expression: KtStringTemplateExpression) {
@@ -557,6 +556,7 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
         val other = getTreeElement<KtDestructuringDeclaration>() ?: return
         myMatchingVisitor.result = myMatchingVisitor.matchSequentially(destructuringDeclaration.entries, other.entries)
                 && myMatchingVisitor.match(destructuringDeclaration.initializer, other.initializer)
+                && myMatchingVisitor.match(destructuringDeclaration.docComment, other.docComment)
     }
 
     override fun visitDestructuringDeclarationEntry(multiDeclarationEntry: KtDestructuringDeclarationEntry) {
@@ -569,7 +569,8 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
 
     override fun visitComment(comment: PsiComment) {
         val other = getTreeElement<PsiComment>() ?: return
-        myMatchingVisitor.result = myMatchingVisitor.matchText(comment, other)
+        myMatchingVisitor.result = comment.tokenType == other.tokenType
+                && myMatchingVisitor.matchText(comment, other)
     }
 
 }
