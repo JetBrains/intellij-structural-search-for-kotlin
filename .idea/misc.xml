@@ -54,6 +54,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolInProperty.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolRegex.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdoc.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocProperty.kt" />
