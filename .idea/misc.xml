@@ -47,13 +47,15 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/interface.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/sealedClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/twoClasses.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/comment/block.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockBeforeClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockBeforeProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockInProperty.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockInProperty.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/comment/eol.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolInProperty.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdoc.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
