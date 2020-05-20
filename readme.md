@@ -20,6 +20,7 @@ Plugin that implements structural search support for the Kotlin language in Inte
 
 Strings are divided into entries. For instance `"foo: $foo"` is composed of a `KtLiteralStringTemplateEntry` (`foo: `) and a `KtSimpleNameStringTemplateEntry` (`$foo`).
 - `"$$entry$"` matches strings with one entry.
+- Variables with text filters can be used in literals, but they must be separated with a space.
 - `"$$before$${ $expr$ }$$after$"` with `[0; ∞]` count filters on `before` and `after` matches strings containing a `KtBlockStringTemplateEntry` (`${ expression }`).
 
 ### Call Matching
