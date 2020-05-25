@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/twoBinaryExpressions.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/as.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/callableReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/extensionFun.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrPrim.kt" />
