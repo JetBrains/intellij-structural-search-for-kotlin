@@ -19,6 +19,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/callableReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/extensionFun.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/propertyReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/class.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classAbstractModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/classConstrPrim.kt" />
@@ -136,6 +137,9 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varRefAssign.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssign.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssignPar.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
