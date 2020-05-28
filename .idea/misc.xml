@@ -166,6 +166,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/nested.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/simpleName.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/singleVariable.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringBracesTemplate.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringBracesTemplateQuery.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringsContainingLongTemplate.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringWithBinaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
