@@ -18,6 +18,7 @@ dependencies {
 }
 
 intellij {
+    version '2020.1'
     plugins = ['Kotlin', 'java']
 }
 

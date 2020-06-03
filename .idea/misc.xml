@@ -32,6 +32,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryRangeTo.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryRem.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryRemAssign.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binarySameVariable.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binarySet.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryTimes.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryTimesAssign.kt" />
@@ -128,6 +129,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/fun.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBody.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funExprBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
@@ -215,7 +217,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenVariableSubject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenVarRefEntry.kt" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
