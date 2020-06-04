@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.jetbrains'
-version '1.0-SNAPSHOT'
+version '0.1-EAP'
 
 sourceCompatibility = 1.8
 
@@ -18,7 +18,6 @@ dependencies {
 }
 
 intellij {
-    version '2020.1'
     plugins = ['Kotlin', 'java']
 }
 

@@ -1,14 +1,14 @@
 <idea-plugin>
     <id>com.jetbrains.intellij-structural-search-for-kotlin</id>
     <name>Structural Search for Kotlin</name>
-    <vendor email="louis.vignier@jetbrains.com" url="https://www.jetbrains.com">JetBrains</vendor>
+    <vendor url="http://www.jetbrains.com">JetBrains</vendor>
+    <idea-version since-build="201"/>
 
     <description><![CDATA[
     This plugin provides structural search and replace (SSR) support for the Kotlin language.
     ]]></description>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
+
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.kotlin</depends>
     <depends>com.intellij.modules.java</depends>
@@ -16,8 +16,4 @@
     <extensions defaultExtensionNs="com.intellij">
         <structuralsearch.profile implementation="com.jetbrains.kotlin.structuralsearch.KotlinStructuralSearchProfile"/>
     </extensions>
-
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
 </idea-plugin>
