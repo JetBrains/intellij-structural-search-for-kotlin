@@ -139,6 +139,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funSimpleTypeReceiver.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSingleParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeVarRef.kt" />
@@ -154,6 +155,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/body.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/empty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/explicitIt.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/identity.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/doWhileLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/forLoop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/loopStatement/whileLoop.kt" />
