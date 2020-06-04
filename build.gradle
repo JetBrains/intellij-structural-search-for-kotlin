@@ -18,8 +18,12 @@ dependencies {
 }
 
 intellij {
-    version '2020.1'
     plugins = ['Kotlin', 'java']
+}
+
+patchPluginXml {
+    sinceBuild = "201"
+    untilBuild = "202.*"
 }
 
 compileKotlin {
