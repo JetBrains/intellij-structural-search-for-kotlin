@@ -8,6 +8,7 @@
     <option name="languageLevel" value="ES6" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/annotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotationArgs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/funAnnotation.kt" />
