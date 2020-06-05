@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.jetbrains'
-version '0.1-EAP'
+version '1.0-EA'
 
 sourceCompatibility = 1.8
 

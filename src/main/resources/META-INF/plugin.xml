@@ -4,13 +4,13 @@
     <vendor url="http://www.jetbrains.com">JetBrains</vendor>
 
     <description><![CDATA[
-    This plugin provides structural search and replace (SSR) support for the Kotlin language.
+    Provides structural search and replace (SSR) support for the Kotlin language.
+    Any issues can be reported to our slack channel: #intellij-structural-search-for-kotlin.
     ]]></description>
 
 
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.kotlin</depends>
-    <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <structuralsearch.profile implementation="com.jetbrains.kotlin.structuralsearch.KotlinStructuralSearchProfile"/>
