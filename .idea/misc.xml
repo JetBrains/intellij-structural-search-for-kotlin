@@ -141,6 +141,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funSameTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSimpleTypeReceiver.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSingleParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
