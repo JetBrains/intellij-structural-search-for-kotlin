@@ -111,6 +111,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdoc.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocProperty.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocTag.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/character.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
