@@ -100,9 +100,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/class/sealedClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/class/twoClasses.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/block.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockBeforeClass.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockBeforeProperty.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/comment/blockInProperty.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eol.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/eolBeforeProperty.kt" />
@@ -111,7 +108,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdoc.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocProperty.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/comment/kdocTag.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/boolean.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/character.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
@@ -202,6 +198,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringBracesTemplateQuery.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringsContainingLongTemplate.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringWithBinaryExpression.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetAnyField.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetSpecificField.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
