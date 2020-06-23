@@ -220,6 +220,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/preIncrement.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/unaryMinus.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/unaryPlus.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenAnyEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenExpressionSubject.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/whenExpression/whenIsPatternEntry.kt" />
