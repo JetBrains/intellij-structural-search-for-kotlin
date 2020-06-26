@@ -14,6 +14,11 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/funAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constAccessGet.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignDiv.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignMinus.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignPlus.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignRem.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignTimes.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryBigEqThan.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryBigThan.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryDiv.kt" />
