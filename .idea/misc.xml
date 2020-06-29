@@ -196,6 +196,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssign.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssignPar.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotNoReceiver.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
