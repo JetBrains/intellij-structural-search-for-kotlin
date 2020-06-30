@@ -144,12 +144,15 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBody.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funExprBlock.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funFqReceiverTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funLocal.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funNoReceiverTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPrivateModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funReceiverTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funReturnType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSameTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSimpleTypeReceiver.kt" />
