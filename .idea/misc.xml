@@ -192,8 +192,10 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valReceiverType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/var.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varGetterModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varNoInitializer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varRefAssign.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/varSetterModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssign.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssignPar.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
