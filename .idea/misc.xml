@@ -50,6 +50,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/callableReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/extensionFun.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/noQualifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/propertyReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/callAnyParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/constrArgCall.kt" />
