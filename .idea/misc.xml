@@ -130,6 +130,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/count.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/dataClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/loop.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/variable.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/variableFor.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/break.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/breakLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/continue.kt" />
