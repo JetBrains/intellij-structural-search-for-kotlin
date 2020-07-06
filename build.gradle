@@ -5,9 +5,7 @@ plugins {
 }
 
 group 'com.jetbrains'
-version '1.0-EA-3'
-
-sourceCompatibility = 1.8
+version '1.0-EA-2.6'
 
 repositories {
     mavenCentral()
@@ -22,7 +20,7 @@ intellij {
 }
 
 patchPluginXml {
-    sinceBuild = "201"
+    sinceBuild = "202"
     untilBuild = "203.*"
 }
 

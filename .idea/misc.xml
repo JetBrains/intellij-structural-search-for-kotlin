@@ -176,6 +176,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElse.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifElseCondition.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/ifExpression/ifThen1Expr.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/is.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/isExpression/negatedIs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/lambdaExpression/body.kt" />
