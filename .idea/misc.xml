@@ -165,6 +165,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSameTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSimpleTypeReceiver.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funSingleParam.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funStarTypeProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeParamArgs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeProjection.kt" />
