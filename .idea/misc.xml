@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotationArgs.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotations.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/funAnnotation.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/useSiteTarget.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/arrayAccessExpression/constAccessGet.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryExpression/binaryAssignDiv.kt" />
