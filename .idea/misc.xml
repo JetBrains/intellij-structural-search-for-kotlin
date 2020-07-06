@@ -144,9 +144,12 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/this.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/expressionWithLabel/thisLabel.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/fun.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/fun2ExprBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funAny.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBody.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBodyExprAndVariable.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funEmptyBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funExprBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funFqReceiverTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
