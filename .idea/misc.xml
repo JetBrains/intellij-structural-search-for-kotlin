@@ -200,6 +200,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/parentheses/variableRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/functionType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/functionTypeNamedParameter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/property/returnTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/val.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valComplexFqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/valFqType.kt" />
