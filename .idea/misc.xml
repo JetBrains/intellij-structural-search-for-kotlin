@@ -51,7 +51,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/binaryWithTypeRHSExpression/asSafe.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/callableReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/extensionFun.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/noQualifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callableReference/propertyReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/callAnyParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/constrArgCall.kt" />
@@ -128,7 +127,13 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/float.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/integer.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/constantExpression/null.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/count.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/destructuringDeclarationCount.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/dotOptionalReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/funNoReceiverTypeReference.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/noQualifier.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/propertyAssignment.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/whenFacultativeArgument.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/whenTwoEntries.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/dataClass.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/loop.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/destructuringDeclaration/variable.kt" />
@@ -156,7 +161,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funLocal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funNoinlineParam.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/function/funNoReceiverTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPrivateModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
@@ -221,7 +225,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varStringAssignPar.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/property/varTypeProjection.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotNoReceiver.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotOptionalReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/dotRegular.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/qualifiedExpression/safeAccess.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/allStrings.kt" />
