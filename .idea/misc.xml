@@ -62,8 +62,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/constrTypeArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/constrVarargCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCall.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCallBoundedCountFilter.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCallCountFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCallVarRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funExtensionCall.kt" />
@@ -259,7 +257,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/fqNameTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/shortNameTypeFilter.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierachyTypeFilter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierarchyTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/functionType.kt" />
