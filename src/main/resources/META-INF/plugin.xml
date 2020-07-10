@@ -5,8 +5,8 @@
 
     <description><![CDATA[
     Provides structural search and replace (SSR) support for the Kotlin language.
-    Any issues can be reported to YouTrack using the IDE. Structural Search subsystem:
-    https://youtrack.jetbrains.com/issues/KT
+    Any issues can be reported to YouTrack using the "IDE. Structural Search" subsystem of the Kotlin project:
+    https://bit.ly/2APryEQ
     ]]></description>
 
 

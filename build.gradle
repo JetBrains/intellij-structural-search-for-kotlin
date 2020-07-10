@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.jetbrains'
-version '1.0-EA-2.8'
+version '1.0-EA-3.0'
 
 repositories {
     mavenCentral()
