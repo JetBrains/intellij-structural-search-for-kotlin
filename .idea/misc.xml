@@ -259,6 +259,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/annotated.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/fqNameTypeFilter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableTypeHierarchy.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/shortNameTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessArrayExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessIndicesNode.kt" />
