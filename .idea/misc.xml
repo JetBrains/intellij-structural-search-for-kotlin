@@ -264,6 +264,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/shortNameTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessArrayExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessIndicesNode.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeDotQualifiedExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierarchyTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
