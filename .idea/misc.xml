@@ -138,7 +138,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmSimpleNameStringTemplateEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmStatementInBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmStatementInDoWhile.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmStringTemplateExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmSuperType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmTypeParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmTypeParameterFunctionType.kt" />
@@ -277,7 +276,6 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeSimpleNameStringTemplateEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeValueArgument.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeWhenEntry.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierarchyFullyQualified.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierarchyTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
