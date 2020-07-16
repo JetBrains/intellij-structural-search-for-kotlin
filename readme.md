@@ -9,6 +9,10 @@ Plugin that implements structural search support for the Kotlin language in Inte
     - In IntelliJ IDEA if the plugin is installed, **Edit | Find | Search Structurally...** then **Tools | Existing Templates... | Kotlin**.
     - In [`KotlinPredefinedConfigurations.kt`](src/main/kotlin/com/jetbrains/kotlin/structuralsearch/KotlinPredefinedConfigurations.kt).
 
+## Reporting issues
+
+Issues can be reported [in YouTrack](https://youtrack.jetbrains.com/newIssue?project=KT&summary=Structural%20Search%3A&description=This%20pattern%3A%0A%60%60%60kt%0Afun%20%24x%24()%0A%60%60%60%0A%0AShould%20match%20the%20following%20code%3A%0A%60%60%60kt%0Afun%20foo()%20%7B%7D%0A%60%60%60).
+
 ## Matching Behaviour
 
 ### Block Matching
