@@ -66,6 +66,11 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funArgCallVarRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCall.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCallDefaultArg.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCallDefaultArgMixed.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCallDefaultTrailingLambda.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCallDefaultVararg.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funCallNamedDefaultArg.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funExtensionCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funLambdaArgCall.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/callExpression/funMixedArgsCall.kt" />
