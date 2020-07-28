@@ -267,7 +267,11 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/annotated.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeAlias/typeAlias.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/args.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/fqNameTypeFilter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionType2.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionType3.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/null.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableTypeHierarchy.kt" />
