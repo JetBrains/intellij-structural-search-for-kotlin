@@ -289,6 +289,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeWhenEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/withinHierarchyTypeFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/any.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqTextFilter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/functionType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/nullableType.kt" />
