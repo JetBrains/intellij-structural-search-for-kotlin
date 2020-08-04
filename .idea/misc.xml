@@ -136,6 +136,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minWhenExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmClassBodyElement.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmKDocTag.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmSimpleNameStringTemplateEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/mmStatementInBlock.kt" />
