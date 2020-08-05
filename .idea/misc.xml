@@ -130,6 +130,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/maxDestructuringDeclarationEntry.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/maxWhenConditionWithExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minCallableReferenceExpression.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minConstructorCallee.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minDotQualifierExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minFunctionTypeReference.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/countFilter/minProperty.kt" />
