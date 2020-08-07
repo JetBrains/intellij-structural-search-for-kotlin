@@ -16,6 +16,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <structuralsearch.profile implementation="com.jetbrains.kotlin.structuralsearch.KotlinStructuralSearchProfile"/>
 
-        <structuralsearch.filter implementation="com.jetbrains.kotlin.structuralsearch.filters.VarValFilter"/>
+        <structuralsearch.filter implementation="com.jetbrains.kotlin.structuralsearch.filters.VarOnlyFilter"/>
+        <structuralsearch.filter implementation="com.jetbrains.kotlin.structuralsearch.filters.ValOnlyFilter"/>
     </extensions>
 </idea-plugin>
