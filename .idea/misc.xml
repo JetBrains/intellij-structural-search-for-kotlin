@@ -275,6 +275,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionType2.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionType3.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionTypeReceiver.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/functionTypeSupertype.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/inVariance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/null.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableFunctionType.kt" />
