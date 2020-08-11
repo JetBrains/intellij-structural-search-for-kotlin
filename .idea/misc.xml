@@ -282,6 +282,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/nullableTypeHierarchy.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/outVariance.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/shortNameTypeFilter.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/suspendFunctionType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessArrayExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeArrayAccessIndicesNode.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeFilter/typeBinaryExpression.kt" />
