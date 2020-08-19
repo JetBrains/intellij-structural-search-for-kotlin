@@ -264,7 +264,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/stringTemplateEntry/stringWithBinaryExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetAnyField.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetSpecificField.kt" />
-    <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassMember.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassDeclaration.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassName.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/throwExpression/anyException.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
