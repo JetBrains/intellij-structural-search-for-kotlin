@@ -266,6 +266,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetSpecificField.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassDeclaration.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassName.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassSuperType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/throwExpression/anyException.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryCatch.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/tryCatchExpression/tryFinally.kt" />
