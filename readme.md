@@ -15,23 +15,115 @@ Issues can be reported [in YouTrack](https://youtrack.jetbrains.com/newIssue?pro
 
 ## Matching Behaviour
 
-### Block Matching
+### Blocks
 
-- Block matching is strict: the pattern `{ foo = 1 }` will not match `{ foo = 2 \n foo = 1 }` in the code.
-- Loose matching can be achieved with the pattern `{ $x$ \n foo = 1 \n $y$ }` and `[0; ∞]` count filters on `x` and `y`.
+Series of instructions are matched strictly. The following pattern:
 
-### String Matching
+```kotlin
+fun x() {
+    val foo = 1
+}
+```
 
-Strings are divided into entries. For instance `"foo: $foo"` is composed of a `KtLiteralStringTemplateEntry` (`foo: `) and a `KtSimpleNameStringTemplateEntry` (`$foo`).
-- `"$$entry$"` matches strings with one entry.
-- Variables with text filters can be used in literals, but they must be separated with a space.
-- `"$$before$${ $expr$ }$$after$"` with `[0; ∞]` count filters on `before` and `after` matches strings containing a `KtBlockStringTemplateEntry` (`${ expression }`).
+will not match the following piece of code:
 
-### Call Matching
+```kotlin
+fun x() {
+    val foo = 1
+    val bar = 2
+}
+```
 
-- Named value arguments are matched in any order.
-- Unnamed value arguments and type arguments are matched if the arguments are placed in the same order.
+Loose matching can be achieved using variables with a [0,∞] count filter to match surrounding instructions:
 
-### Object declaration matching
+```kotlin
+fun x() {
+    $before$
+    val foo = 1
+    $after$
+}
+```
 
-- Object searches match both companion objects and normal object declarations.
+
+<!-- TODO: Remove comment when custom filters are in master
+### Variable declarations
+
+The `val` and `var` keywords aren’t taken into account by default. Type reference and initializer are optional. The following pattern:
+
+```kotlin
+val $x$: Int
+```
+
+will match the following piece of code:
+
+```kotlin
+var myVariable = 6
+```
+
+It is possible to match variables with custom getters or setters.
+The `Kotlin — Property with explicit getter/setter` file type must be selected.
+-->
+
+### Strings
+
+Strings in Kotlin are made of successive entries.
+These entries can be:
+ 
+```kotlin
+"bug"       // literals
+"\n"        // escapes
+"$name"     // simple names
+"${ name }" // blocks
+```
+In order to be able to match strings containing one of these entries, simple names with a variable match any entry.
+The following template will match any string with only one entry (any of the previous four examples for instance):
+
+```kotlin
+“$$$name$”
+```
+
+The following template will match any string containing a block with one instruction
+(with, again, [0,∞] count filters on `$before$` and `$after$`):
+
+```kotlin
+“$$$before$${ $instruction$ }$$$after$”
+```
+
+### Functions
+
+In function calls, named value arguments are matched in any order. Unnamed value arguments and type arguments are matched if the arguments are placed in the same order.
+
+In function declarations, expressions bodies (`fun x() = 1`) are matched with block bodies containing a return expression (`fun x() { return 1 }`).
+
+### Object declarations
+
+Object searches match both companion objects and normal object declarations.
+
+### Binary expressions
+
+Binary operations are matched with their functional counterparts.
+The following pattern:
+
+```kotlin
+x + y
+```
+
+will match this piece of code:
+
+```kotlin
+x.plus(y)
+```
+
+Augmented assignments are matched with their binary and functional counterparts.
+The following pattern:
+
+```kotlin
+x += y
+```
+
+will match these two lines of code:
+
+```kotlin
+x = x + y
+x.plusEquals(y)
+```
