@@ -268,6 +268,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetAnyField.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/targeted/targetSpecificField.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/fqSuperType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/fqTypeAlias.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassDeclaration.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassName.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/textFilter/hierarchyClassSuperType.kt" />
