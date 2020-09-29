@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Sanity Test (Local)" type="JUnit" factoryName="JUnit" singleton="false" repeat_count="100" repeat_mode="Until Failure">
+  <configuration default="false" name="Sanity Test (100x)" type="JUnit" factoryName="JUnit" repeat_count="100" repeat_mode="N Times">
     <module name="intellij-structural-search-for-kotlin.test" />
     <useClassPathOnly />
     <option name="PACKAGE_NAME" value="com.jetbrains.kotlin.structuralsearch.sanity" />
@@ -7,7 +7,6 @@
     <option name="METHOD_NAME" value="testLocalSSS" />
     <option name="TEST_OBJECT" value="method" />
     <option name="PARAMETERS" value="" />
-    <option name="WORKING_DIRECTORY" value="src/main/kotlin" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
