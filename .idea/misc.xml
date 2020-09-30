@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/annotatedExpression.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/annotatedExpressionZero.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/annotation.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/annotation/annotationArrayParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/class2Annotations.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/annotation/classAnnotationArgs.kt" />
@@ -182,6 +183,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funInternalModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funLocal.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funNoinlineParam.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funOptionalArg.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPrivateModifier.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funPublicModifier.kt" />
@@ -314,6 +316,8 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/fqType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/functionType.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/nullableType.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/standaloneNullable.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/typeReference/standaloneParameter.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/assertNotNull.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/not.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/unaryExpression/postDecrement.kt" />
