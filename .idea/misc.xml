@@ -199,6 +199,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funTypeVarRef.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funVarargAndNormalParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funVarargAndNormalReverseParam.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funVarargFullMatchParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funVarargParam.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/method.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/methodProtectedModifier.kt" />
