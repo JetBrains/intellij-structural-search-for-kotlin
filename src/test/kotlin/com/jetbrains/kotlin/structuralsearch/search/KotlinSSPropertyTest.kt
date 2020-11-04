@@ -8,8 +8,6 @@ class KotlinSSPropertyTest : KotlinSSResourceInspectionTest() {
 
     fun testVar() { doTest("var '_") }
 
-    fun testVal() { doTest("val '_") }
-
     fun testValType() { doTest("val '_ : Int") }
 
     fun testValFqType() { doTest("val '_ : Foo.Int") }

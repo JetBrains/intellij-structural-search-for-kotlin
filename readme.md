@@ -47,7 +47,6 @@ fun x() {
 
 ### Variable declarations
 
-<!-- TODO: Remove comment when custom filters are in master
 The `val` and `var` keywords aren’t taken into account by default. Type reference and initializer are optional. The following pattern:
 
 ```kotlin
@@ -62,7 +61,6 @@ var myVariable = 6
 
 It is possible to match variables with custom getters or setters.
 The `Kotlin — Property with explicit getter/setter` file type must be selected.
--->
 
 Type filters should be applied on name identifiers:
 

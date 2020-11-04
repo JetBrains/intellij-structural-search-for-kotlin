@@ -1046,7 +1046,6 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
         myMatchingVisitor.result = matchTypeReferenceWithDeclaration(property.typeReference, other)
                 && myMatchingVisitor.match(property.modifierList, other.modifierList)
                 && matchTextOrVariable(property.nameIdentifier, other.nameIdentifier)
-                && property.isVar == other.isVar
                 && myMatchingVisitor.match(property.docComment, other.docComment)
                 && myMatchingVisitor.matchOptionally(
             property.delegateExpressionOrInitializer,
