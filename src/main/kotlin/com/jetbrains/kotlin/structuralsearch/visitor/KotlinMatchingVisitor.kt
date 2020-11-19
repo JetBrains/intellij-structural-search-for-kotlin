@@ -473,7 +473,9 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
 
     override fun visitLambdaExpression(lambdaExpression: KtLambdaExpression) {
         val other = getTreeElementDepar<KtLambdaExpression>() ?: return
-        myMatchingVisitor.result = myMatchingVisitor.matchInAnyOrder(lambdaExpression.valueParameters, other.valueParameters)
+        val lambdaVP = lambdaExpression.valueParameters
+        val otherVP = other.valueParameters
+        myMatchingVisitor.result = (lambdaVP.isEmpty() && otherVP.size <= 1 || myMatchingVisitor.matchSequentially(lambdaVP, otherVP))
                 && myMatchingVisitor.match(lambdaExpression.bodyExpression, other.bodyExpression)
     }
 

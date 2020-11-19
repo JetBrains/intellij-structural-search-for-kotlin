@@ -66,4 +66,12 @@ class KotlinSSCountFilterTest : KotlinSSResourceInspectionTest() {
          * @'_{0,2}
          */
     """.trimIndent()) }
+
+    // Misc
+
+    fun testZeroLambdaParameter() { doTest("{ '_{0,0} -> '_ }") }
+
+    fun testOneLambdaParameter() { doTest("{ '_{1,1} -> '_ }") }
+
+    fun testMmLambdaParameter() { doTest("{ '_{0,2} -> '_ }") }
 }
