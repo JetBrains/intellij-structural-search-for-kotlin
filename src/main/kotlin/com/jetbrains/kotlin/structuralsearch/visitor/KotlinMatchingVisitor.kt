@@ -14,6 +14,7 @@ import com.intellij.util.containers.reverse
 import com.jetbrains.kotlin.structuralsearch.*
 import org.jetbrains.kotlin.descriptors.ClassDescriptor
 import org.jetbrains.kotlin.descriptors.FunctionDescriptor
+import org.jetbrains.kotlin.descriptors.impl.AnonymousFunctionDescriptor
 import org.jetbrains.kotlin.descriptors.impl.PropertyDescriptorImpl
 import org.jetbrains.kotlin.fir.builder.toUnaryName
 import org.jetbrains.kotlin.idea.caches.resolve.resolveToCall
@@ -475,8 +476,14 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
         val other = getTreeElementDepar<KtLambdaExpression>() ?: return
         val lambdaVP = lambdaExpression.valueParameters
         val otherVP = other.valueParameters
-        myMatchingVisitor.result = (lambdaVP.isEmpty() && otherVP.size <= 1 || myMatchingVisitor.matchSequentially(lambdaVP, otherVP))
-                && myMatchingVisitor.match(lambdaExpression.bodyExpression, other.bodyExpression)
+
+        myMatchingVisitor.result =
+            (!lambdaExpression.functionLiteral.hasParameterSpecification()
+                    || myMatchingVisitor.matchSequentially(lambdaVP, otherVP)
+                    || lambdaVP.map { p -> getHandler(p).let { if (it is SubstitutionHandler) it.minOccurs else 1 } }.sum() == 1
+                    && !other.functionLiteral.hasParameterSpecification()
+                    && (other.functionLiteral.descriptor as AnonymousFunctionDescriptor).valueParameters.size == 1)
+                    && myMatchingVisitor.match(lambdaExpression.bodyExpression, other.bodyExpression)
     }
 
     override fun visitTypeProjection(typeProjection: KtTypeProjection) {
