@@ -1,6 +1,8 @@
-# Structural Search for Kotlin IntelliJ IDEA plugin
+# Structural Search for Kotlin IntelliJ IDEA plugin (legacy)
 
-Plugin that implements structural search support for the Kotlin language in IntelliJ IDEA.
+Plugin that implements structural search support for the Kotlin language in IntelliJ IDEA. It is compatible with IDEA 2020.1 and 2020.2.
+
+Kotlin Structural Search support is provided by the Kotlin plugin from IDEA 2020.3.
 
 ## Getting started
 
@@ -11,7 +13,7 @@ Plugin that implements structural search support for the Kotlin language in Inte
 
 ## Reporting issues
 
-Issues can be reported [in YouTrack](https://youtrack.jetbrains.com/newIssue?project=KT&summary=Structural%20Search%3A&description=This%20template%3A%0A%60%60%60kt%0Afun%20%24x%24()%0A%60%60%60%0A%0AShould%20match%20the%20following%20code%3A%0A%60%60%60kt%0Afun%20foo()%20%7B%7D%0A%60%60%60).
+Issues can be reported [in YouTrack](https://youtrack.jetbrains.com/newIssue?project=KTIJ&summary=SSR%3A).
 
 ## Matching Behaviour
 
