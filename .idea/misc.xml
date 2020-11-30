@@ -181,6 +181,7 @@
     <file url="file://$PROJECT_DIR$/src/test/resources/function/fun2ExprBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funAnnotation.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funAny.kt" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/function/funAnyExprBlock.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBody.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funBlockBodyExprAndVariable.kt" />
     <file url="file://$PROJECT_DIR$/src/test/resources/function/funEmptyBlock.kt" />
