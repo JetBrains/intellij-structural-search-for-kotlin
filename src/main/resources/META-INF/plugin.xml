@@ -4,11 +4,10 @@
     <vendor url="http://www.jetbrains.com">JetBrains</vendor>
 
     <description><![CDATA[
-    Provides structural search and replace (SSR) support for the Kotlin language.
-    Any issues can be reported to YouTrack using the "IDE. Structural Search" subsystem of the Kotlin project:
-    https://bit.ly/2APryEQ
+    Provides structural search and replace (SSR) support for the Kotlin language.<br>
+    This plugin can be used with IDEA 2020.1 and 2020.2. From IDEA 2020.3, SSR support is provided by the Kotlin plugin.<br>
+    Any issues can be reported to YouTrack using <a href="https://bit.ly/3fQRcZL">this link</a>.
     ]]></description>
-
 
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.kotlin</depends>
