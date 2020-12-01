@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin url="https://plugins.jetbrains.com/plugin/15486-structural-search-for-kotlin">
     <id>com.jetbrains.intellij-structural-search-for-kotlin</id>
     <name>Structural Search for Kotlin</name>
     <vendor url="http://www.jetbrains.com">JetBrains</vendor>
@@ -8,9 +8,13 @@
     This plugin can be used with IDEA 2020.1 and 2020.2. From IDEA 2020.3, SSR support is provided by the Kotlin plugin.<br>
     Any issues can be reported to YouTrack using <a href="https://bit.ly/3fQRcZL">this link</a>.
     ]]></description>
+    <change-notes>Initial release of the plugin.</change-notes>
+    <version>1.0.0</version>
+
 
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <structuralsearch.profile implementation="com.jetbrains.kotlin.structuralsearch.KotlinStructuralSearchProfile"/>
