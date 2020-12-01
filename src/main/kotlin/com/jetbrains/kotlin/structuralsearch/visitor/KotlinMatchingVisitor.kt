@@ -1169,12 +1169,12 @@ class KotlinMatchingVisitor(private val myMatchingVisitor: GlobalMatchingVisitor
         val other = getTreeElementDepar<PsiComment>() ?: return
         when (val handler = comment.getUserData(CompiledPattern.HANDLER_KEY)) {
             is LiteralWithSubstitutionHandler -> {
-                if (other is KDocImpl) {
+//                if (other is KDocImpl) {
                     myMatchingVisitor.result = handler.match(comment, other, myMatchingVisitor.matchContext)
-                } else {
-                    val offset = 2 + other.text.substring(2).indexOfFirst { it > ' ' }
-                    myMatchingVisitor.result = handler.match(other, getCommentText(other), offset, myMatchingVisitor.matchContext)
-                }
+//                } else {
+//                    val offset = 2 + other.text.substring(2).indexOfFirst { it > ' ' }
+//                    myMatchingVisitor.result = handler.match(other, getCommentText(other), offset, myMatchingVisitor.matchContext)
+//                }
             }
             is SubstitutionHandler -> {
                 handler.findRegExpPredicate()?.let {
