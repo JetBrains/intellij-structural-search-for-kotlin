@@ -1,7 +1,7 @@
 <idea-plugin url="https://plugins.jetbrains.com/plugin/15486-structural-search-for-kotlin">
     <id>com.jetbrains.intellij-structural-search-for-kotlin</id>
     <name>Structural Search for Kotlin</name>
-    <vendor url="http://www.jetbrains.com">JetBrains</vendor>
+    <vendor>JetBrains</vendor>
 
     <description><![CDATA[
     Provides structural search and replace (SSR) support for the Kotlin language.<br>
